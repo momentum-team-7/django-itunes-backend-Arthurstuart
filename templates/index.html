@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="eyetunez.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Proza+Libre:wght@700&display=swap" rel="stylesheet">  <script src="moment.min.js"></script>
+  <script src="eyetunez.js" defer></script>
+  <title>EyeTunez Music Search</title>
+</head>
+
+<body>
+  <div class="eyeTunez-container">
+  <header><h1 class="eyeTunez-title">EyeTunez Music Search</h1> 
+  </header>
+    
+  
+  <!-- --Search box -->
+  <form id="searchForm">
+  <div class="search-box">
+  
+    <!-- --Audio player -->
+   <div class="audio-player">
+    <audio src="" value="" controls autoplay></audio>
+  </div> 
+
+    
+    <input class="song-field" placeholder="What do you want to hear?"></input>
+    <button class="search-song">Search</button> 
+  </form>
+
+<!-- --Search results-- -->
+<h2 class="browsing">Browsing Your Results</h2>
+  <ul class="list-songs" id="gallery">
+  
+  </ul>
+
+</div>
+</div>
+ </body>
+</body>
+</html>

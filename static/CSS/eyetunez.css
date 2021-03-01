@@ -1,0 +1,96 @@
+
+body {
+    background-image:linear-gradient(-30deg, rgb(215, 84, 173) 0%, rgb(215, 84, 173) 10%, rgb(249, 103, 133) 62%, rgb(254, 115, 51) 100%);
+  }
+  
+  h1 {
+    font-family: 'Proza Libre', sans-serif;    
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    font-weight: 600;
+  }
+  
+  h2 {
+    font-family: Helvetica;
+    color: white;
+    font-style:normal;
+    text-align: left;
+  }
+  
+  .eyeTunez-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+      justify-content: center;
+  }
+  
+  .audio-player {
+    display: block;
+    text-align: center;
+    width: 10rem;
+    margin-left: 15rem;
+    padding-bottom: 10px;
+    margin: 0;
+  
+  }
+  
+  .song-field {
+      margin-top: 6rem;
+      display: inline;
+      width: 500px;
+      border-radius: 20px;
+      padding: 10px 5px 1px;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 18px;
+      color: gray;
+    
+    }
+  
+    /* #search-icon {
+    position: relative;
+    left: 12px;
+    fill: #777;
+    width: 12px;
+    height: 12px;
+    padding-right: 4px;
+    } */
+  
+  .search-song {
+  font-family: Helvetica;
+  border-radius: 60px;
+  border: none;
+  margin: auto;
+  padding: 10px 50px;
+  cursor: pointer;
+  
+  }
+  
+  .search-song:hover {
+    opacity: 0.9;
+  }
+   
+  
+  .list-songs {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-overflow: ellipsis;
+    align-content: space-between;
+    font-family: Helvetica;
+    cursor: pointer;
+      
+  }
+  
+  
+  .li {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .musicPlayer:hover {
+    border: 10px solid #777;
+    opacity: 0.9;
+  }
